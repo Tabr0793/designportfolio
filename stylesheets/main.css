@@ -506,7 +506,6 @@ font-weight: 400;
 	.funfacts {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-		justify-items: center;
     background: #fff;
 		border-top: 10px solid #fff;
 		margin-top: 0px;
@@ -522,7 +521,7 @@ font-weight: 400;
 	    -o-transform: skew(0deg);
 	    transform: skew(0deg);
 	    border-left: 10px solid #fff;
-	    overflow: hidden;
+	    /*overflow: hidden;*/
 	    position: relative;
 	}
 
@@ -531,23 +530,23 @@ font-weight: 400;
 	}
 
 	.butcher {
-		background-image: url('../images/.png');
-    	position: absolute;
-    	background-repeat: no-repeat;
-		background-size: cover;
-    background-color: #f2f9ff;
-
-		background-position: left;
-	    top: 0px;
-	    left: -70px;
-	    right: 60px;
-	    bottom: 0px;
-        -webkit-transform: skew(0deg);
-		-moz-transform: skew(0deg);
-        -o-transform: skew(0deg);
-        transform: skew(0deg);
-        display: block;
-	}
+    background-image: url(../images/.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #f2f9ff; */
+    background-position: left;
+    top: 0px;
+    left: -70px;
+    right: 60px;
+    bottom: 0px;
+    border: whitesmoke solid 2px;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    transform: skew(0deg);
+    display: block;
+    z-index: 2000;
 }
 header nav ul {
 padding: 10px 15px;
