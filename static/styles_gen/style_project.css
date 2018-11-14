@@ -1207,3 +1207,28 @@ html.w-mod-js *[data-ix="screen-floater-2"] { opacity: 0; -webkit-transform: tra
   .about-text-flex { display: -webkit-box; display: -ms-flexbox; display: flex; width: 600px; margin: 126px auto; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
   .about-text-flex.contact { margin-top: 90px; margin-bottom: 90px; }
+
+
+@media (max-width: 479px){
+.contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+}}
+
+@media (max-width: 991px) { .navbar { margin-right: 0px; margin-left: 0px; padding-right: 0px; padding-left: 0px; }
+
+  .about-text { margin-top: 127px; margin-bottom: 127px; font-size: 38px; }
+  .about-text.tools-text { margin-top: 94px; }
+  .about-text.tools-text.smaller { margin-top: 0px; margin-bottom: 73px; }
+  .about-text.smaller { width: 100%; margin-bottom: 96px; }
+  .about-text.smaller.portfolio.dribbble { margin-top: 0px; margin-bottom: 48px; }
+  .about-text-flex { margin-top: 60px; margin-bottom: 60px; }
+  .about-text-flex.contact { margin-top: 65px; margin-bottom: 65px; }
+  .testimonial-wrapper { width: 460px; }
+  .testinomial-text { margin-top: 115px; font-size: 12px; text-align: left; }
+  .ux-section { padding-right: 30px; padding-left: 30px; }
+  
+}
