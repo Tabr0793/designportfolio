@@ -39,7 +39,6 @@
       </div>
     </div>
   </div>
-
   <div class="herosection">
     <div class="herotextflex">
       <div class="about-text smaller" data-ix="hero-text">delightful experience
@@ -48,6 +47,36 @@
       <div class="text-block-2" data-ix="hero-text-2">— TAYLOR IS A UX / UI Designer in Denver, CO</div>
     </div>
   </div>
+
+
+
+  <div class="hero">
+
+  		<div id="me"></div>
+
+  		<div class="circle-me">
+  			<img src="images/me-compressed.png" style="width:200px; margin-top: 50px;" alt="mugshot of Taylor Brown">
+  		</div>
+
+      <div class="herosection">
+        <div class="herotextflex">
+          <div class="about-text smaller" data-ix="hero-text" style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 500ms ease-in 0s, transform 1000ms ease 0s;"> HEY!  I'M TAYLOR.
+            <br>
+            <br></div>
+          <div class="text-block-2" data-ix="hero-text-2" style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 300ms ease-in 0s, transform 800ms ease 0s;"> a UX / UI Designer in Denver, CO</div>
+        </div>
+      </div>
+
+  		<div class="hero-zest">
+
+    <div class="text-block" data-ix="hero-text-2" style="text-align: left; opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 300ms ease-in 0s, transform 800ms ease 0s;"></div>
+
+  		</div>
+  </div>
+
+
+
+
   <div class="work-section">
     <div class="work-container-flex">
       <div class="work-block-flex">
