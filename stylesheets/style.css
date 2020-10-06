@@ -1802,7 +1802,7 @@ textarea.w-input, textarea.w-select { height: auto; }
 
 .work-section { position: static; padding-right: 50px; padding-left: 50px; }
 
-.work-section.dribbble { background-color: #f5f5f5; padding-top: 5%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.work-section.dribbble {display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 .work-container-flex { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; margin-right: -4px; margin-left: -4px; -ms-flex-pack: distribute; justify-content: space-around; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-line-pack: start; align-content: flex-start; }
 
@@ -1844,15 +1844,15 @@ textarea.w-input, textarea.w-select { height: auto; }
 
 .overlay:hover { opacity: 1; }
 
-.overlay.green { background-color: #ff8483; }
+.overlay.green { background-color: #e10000; }
 
-.overlay.darkgrey { background-color: #29afd1; }
+.overlay.darkgrey { background-color: #ff8483; }
 
-.overlay.pink { background-color: #36c26e; }
+.overlay.pink { background-color: #29afd1; }
 
 .overlay.dribbble { background-color: #fff; }
 
-.overlay.purple { background-color: #e10000; }
+.overlay.purple { background-color: #36c26e; }
 
 .h3 { font-family: Montserrat, sans-serif; color: #fff; font-size: 36px; font-weight: 700; letter-spacing: 1.3px; text-transform: uppercase; }
 
