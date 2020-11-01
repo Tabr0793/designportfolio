@@ -711,7 +711,7 @@ textarea.w-input, textarea.w-select { height: auto; }
 
 .h1 {
   margin-top: 92px;
-  margin-bottom: 92px;
+  margin-bottom: 50px;
   font-family: Montserrat, sans-serif;
   font-size: 40px;
   text-align: center;
@@ -727,7 +727,7 @@ textarea.w-input, textarea.w-select { height: auto; }
   line-height: 40px;
   font-weight: 300;
   text-align: left;
-  letter-spacing: 1.3px; }
+  letter-spacing: 1px; }
 
 .summary-block {
   display: -webkit-box;
@@ -881,7 +881,7 @@ textarea.w-input, textarea.w-select { height: auto; }
 
 .text-block.center.white { color: #fff; }
 
-.desc-paragraph { margin-top: 26px; font-family: Montserrat, sans-serif; font-size: 13px; line-height: 24px; font-weight: 300; letter-spacing: 1px; }
+.desc-paragraph { margin-top: 26px; font-family: Montserrat, sans-serif; font-size: 14px; line-height: 24px; font-weight: 300; letter-spacing: 1px; }
 
 .desc-paragraph.center { text-align: justify; }
 
@@ -1140,6 +1140,8 @@ html.w-mod-js *[data-ix="screen-floater-2"] { opacity: 0; -webkit-transform: tra
   .col3-div.col2-div { width: 100%; }
   .footer { padding-right: 30px; padding-left: 30px; }
   .socialbutton { width: 40px; margin-right: 11px; margin-left: 11px; } }
+
+
 
   .work-section { position: static; padding-right: 50px; padding-left: 50px; }
 
